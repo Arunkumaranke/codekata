@@ -8,7 +8,7 @@ int main()
     
     cin >> number;
     
-    while( number )
+    while(number)
     {
         digit++;
         number /= 10;
