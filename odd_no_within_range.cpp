@@ -11,9 +11,10 @@ int main()
     {
         if( ele % 2 )
         {
-            cout << ele << " ";
+            cout << ele ;
         }
-        ele++;
+        if( ele < end-1)
+            cout << " ";
     }
     
     cout << endl;
