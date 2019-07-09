@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int start, end, ele;
+    int flag = 0;
     
     cin >> start >> end;
     ele = start + 1 ;
@@ -11,14 +12,13 @@ int main()
     {
         if( ele % 2 )
         {
+            if(flag)
+                cout << " ";
             cout << ele ;
+            flag = 1;
         }
-        if( ele < end-1)
-            cout << " ";
+        
         ele++;
     }
-    
-    cout << endl;
-    
     return 0;
 }
