@@ -15,6 +15,7 @@ int main()
         }
         if( ele < end-1)
             cout << " ";
+        ele++;
     }
     
     cout << endl;
