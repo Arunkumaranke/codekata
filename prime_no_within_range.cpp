@@ -14,7 +14,7 @@ int main()
         
         for(int divisor = 2; divisor <= ele/2; divisor++)
         {
-            if(ele%divisor == 0)
+            if(ele % divisor == 0)
             {
                 flag =0;
                 break;
