@@ -7,7 +7,7 @@ int main()
     
     cin >> base >> power;
     
-    while(power--)
+    while( power-- )
     {
         res  *= base;
     }
