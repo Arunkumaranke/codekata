@@ -3,14 +3,11 @@ using namespace std;
 
 int main()
 {
-    int input, hour, min;
+    int input;
     
     cin >> input;
     
-    hour = input / 60;
-    min = input % 60;
-    
-    cout << hour << " " << min;
+    cout << input / 60 << " " << input % 60;
     
     return 0;
     
