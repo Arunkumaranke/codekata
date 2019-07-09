@@ -10,7 +10,7 @@ int main()
     ele = start + 1 ;
     while(ele < end)
     {
-        if( ele % 2 == 0 )
+        if(ele % 2 == 0)
         {
             if(flag)
                 cout << " ";
