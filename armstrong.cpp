@@ -18,7 +18,7 @@ int main()
     
     temp = num;
     
-    while(temp)
+    while( temp )
     {
         int digit = 1;
         for(int times = 0; times < digits; times++)
