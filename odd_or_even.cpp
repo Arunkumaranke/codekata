@@ -8,11 +8,11 @@ int main(){
   {
     if( num % 2 )
     {
-      cout << "Odd";
+      cout << "odd";
     }
     else
     {
-      cout << "Even";
+      cout << "even";
     }
   }
   else
