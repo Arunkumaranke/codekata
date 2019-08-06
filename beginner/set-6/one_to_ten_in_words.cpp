@@ -10,16 +10,16 @@ int main()
     
     switch(num)
     {
-        case 1: cout << "one"; break;
-        case 2: cout << "two"; break;
-        case 3: cout << "three"; break;
-        case 4: cout << "four"; break;
-        case 5: cout << "five"; break;
-        case 6: cout << "six"; break;
-        case 7: cout << "seven"; break;
-        case 8: cout << "eight"; break;
-        case 9: cout << "nine"; break;
-        case 10: cout << "ten"; break;
+        case 1: cout << "One"; break;
+        case 2: cout << "Two"; break;
+        case 3: cout << "Three"; break;
+        case 4: cout << "Four"; break;
+        case 5: cout << "Five"; break;
+        case 6: cout << "Six"; break;
+        case 7: cout << "Seven"; break;
+        case 8: cout << "Eight"; break;
+        case 9: cout << "Nine"; break;
+        case 10: cout << "Ten"; break;
     }
     
     return 0;
