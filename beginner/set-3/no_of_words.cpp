@@ -20,9 +20,9 @@ int main()
   
   getline(cin, str);
   
-  for(int ind = 0; str.at(ind) != '\0'; ind++)
+  for(int ind = 0; str[ind] != '\0'; ind++)
   {
-      if(str.at(ind) == ' ')
+      if(str[ind] == ' ')
         count++;
   }
   
