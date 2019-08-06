@@ -1,3 +1,13 @@
+/*
+Given a number N, print it in words.
+Input Size : 1 <= N <= 10
+Sample Testcase :
+INPUT
+1
+OUTPUT
+One
+*/
+
 #include <iostream>
 
 using namespace std;
