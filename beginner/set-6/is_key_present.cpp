@@ -34,7 +34,7 @@ int main()
     noOfElements--;
   }
   
-  cout << ( (keyFound) ? "Yes" : "No" );
+  cout << ( (keyFound) ? "yes" : "no" );
   
   return 0;
 }
