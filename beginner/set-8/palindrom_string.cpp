@@ -1,5 +1,5 @@
 /*
-71 - Given a string S, check if it is a palindrome. Print yes/no.
+Given a string S, check if it is a palindrome. Print yes/no.
 Sample Testcase :
 INPUT
 lappal
