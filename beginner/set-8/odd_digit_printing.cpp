@@ -15,24 +15,25 @@ using namespace std;
 int main()
 {
   int num;
-  int arr[10], digit = 0, flag = 0;
+  int rev = 0, flag = 0;
   
   cin >> num ;
   
   while(num != 0)
   {
-    arr[digit++] = num % 10;
+    rev = (rev * 10) + (num % 10);
     num /= 10;
   }
   
-  for(int ind = digit-1; ind >= 0; ind--)
+  while(rev != 0)
   {
-      if( arr[ind] % 2 == 1)
-      {
-        cout << ( ( flag == 1 ) ? " " : ""  ) ;
-        cout << arr[ind];
-        flag = 1;
-      }
+    int digit = rev % 10;
+    if(digit % 2 != 0)
+    {
+      cout << ( ( flag == 1 ) ? " " : "") << digit;
+      flag = 1;
+    }
+    rev /= 10;
   }
   
   return 0;
