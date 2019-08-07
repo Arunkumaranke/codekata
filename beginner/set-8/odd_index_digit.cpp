@@ -27,7 +27,7 @@ int main()
   
   for(int ind = digit-1; ind >= 0; ind--)
   {
-      if( ( digit - ind ) % 2 == 0)
+      if( arr[ind] % 2 == 1)
       {
         cout << ( ( flag == 1 ) ? " " : ""  ) ;
         cout << arr[ind];
