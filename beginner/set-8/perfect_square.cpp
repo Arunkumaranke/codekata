@@ -19,7 +19,7 @@ int main()
   
   product = num1*num2;
   
-  for(perfectSquare = 1, count = 1; perfectSquare < product; count++, perfectSquare = count*count);
+  for(perfectSquare = 0, count = 0; perfectSquare < product; count++, perfectSquare = count*count);
   
   cout << ( ( product == perfectSquare ) ? "yes" : "no");
   
