@@ -23,5 +23,7 @@ int main()
         cout << str[ind];
   }
   
+  cout << "\n";
+  
   return 0;
 }
